@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.todo-form {
+  margin: 20px;
+}
+
+.todo-form input,
+.todo-form textarea {
+  width: 200px;
+  margin: 10px;
+}
+
+.todo-form button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.filter {
+  margin: 20px;
+}
+
+.todo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.todo-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f0f8ff;
+  width: 250px;
+}
+
+.todo-card h3 {
+  margin: 0;
+}
+
+.todo-card p {
+  margin: 10px 0;
+}
+
+.todo-card select {
+  margin-bottom: 10px;
+}
+
+.todo-card button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-card button:first-of-type {
+  background-color: #007bff;
+  color: white;
+}
+
+.todo-card button:last-of-type {
+  background-color: #dc3545;
+  color: white;
+}
